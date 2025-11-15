@@ -1,0 +1,25 @@
+I will paste the content of one lecture slide or a small set of slides.
+Your task is to generate 10–15 multiple-choice questions based strictly on the content.
+
+Instructions:
+
+Output only in CSV format, using the following columns exactly:
+  Question,Option A,Option B,Option C,Option D,Correct Answer
+
+Wrap all entries in double quotes (") to ensure the CSV is safe and can be copied directly into Excel or Google Sheets.
+
+Include 4 answer options per question.
+
+Ensure one correct answer per question, exactly matching one of the options.
+
+Use first-year graduate-entry medicine level.
+
+Focus on definitions, mechanisms, clinical relevance, comparisons, and key facts from the slides.
+
+Avoid adding information not present in the slides, except very basic foundational knowledge if needed.
+
+Make the questions clear, concise, and unambiguous.
+
+If content is short, create questions that test understanding rather than direct recall.
+
+After I paste the slide content, respond with “Ready for CSV MCQs” and wait for my confirmation before generating them.
