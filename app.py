@@ -9,7 +9,7 @@ def load_quiz(file):
 
 # --- Main ---
 st.set_page_config(page_title="Locked in Pookie Quiz", page_icon="🧠", layout="centered")
-st.title("Super Akaesha Lock in Quiz")
+st.title("Super Akaesha Lock in Quiz 🩷")
 
 # Sidebar for selecting quiz
 quiz_choice = st.sidebar.selectbox(
